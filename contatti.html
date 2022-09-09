@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/stile.css" />
+    <title>Epicode - Contatti</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="">
-  <title></title>  
-</head>
-
-<body>
-
-
-</body>
-
+  <body>
+    <div id="container">
+      <header>
+        <img src="./assets/images/logo.png" alt="Epicode-logo" />
+        <nav>
+          <p>Home Chi Siamo Contatti</p>
+          <input type="submit" value="Registrati" />
+        </nav>
+      </header>
+      <main>
+        <h1>Contatti</h1>
+        <form action="" id="contact-form">
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Nome e cognome"
+          /><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Indirizzo valido nome@casella.com"
+          />
+        </form>
+        <textarea name="message" form="contact-form">
+Scrivi in breve il tuo messaggio</textarea
+        >
+        <aside>
+          <h2>Sede formativa</h2>
+          <p>
+            Via Appia 1<br />
+            00100 Roma (RM)
+          </p>
+          <p>info@epicode.school <br />+39 0612345956</p>
+          <h2>Lavora con noi</h2>
+          <p>
+            Per poterti candidare al ruolo di docente invia il tuo cv a
+            job@epicode.school
+          </p>
+        </aside>
+      </main>
+    </div>
+  </body>
 </html>
